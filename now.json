@@ -1,0 +1,5 @@
+{
+  "version": 2,
+  "alias": "triangle",
+  "builds": [{ "src": "react-16.6/package.json", "use": "@now/static-build" }]
+}
