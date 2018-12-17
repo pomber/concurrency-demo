@@ -63,7 +63,8 @@ class Dot extends React.Component {
 }
 
 class Triangle extends React.PureComponent {
-  render({ x, y, s, seconds }) {
+  render() {
+    const { x, y, s, seconds } = this.props;
     if (s <= targetSize) {
       return (
         <Dot
